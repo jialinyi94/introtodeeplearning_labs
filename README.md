@@ -8,7 +8,7 @@ For additional help to install Docker on Windows please see: [this link](Windows
 ## Starting the enviornment
 Once you donwload docker all you need to do is run the container to start! This can be done by running the following command in your command terminal:
 ```
-docker run -p 8888:8888 -p 6006:6006 -v /path/to/introtodeeplearning_labs:/notebooks/introtodeeplearning_labs mit6s191/iap2018:labs
+docker run -p 8888:8888 -p 6006:6006 -v /Users/apple/Documents/Github/introtodeeplearning_labs:/notebooks/introtodeeplearning_labs mit6s191/iap2018:labs
 ```
 Make sure you replace `/path/to/introtodeeplearning_labs` with the correct path to this github repo.
 
